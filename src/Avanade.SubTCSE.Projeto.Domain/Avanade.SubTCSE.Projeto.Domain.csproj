@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Agregates\EmployeeRole\Interfaces\Repository\" />
+    <Folder Include="Agregates\EmployeeRole\Interfaces\Services\" />
+    <Folder Include="Agregates\EmployeeRole\Validators\" />
+    <Folder Include="Agregates\EmployeeRole\Services\" />
+  </ItemGroup>
+
+</Project>

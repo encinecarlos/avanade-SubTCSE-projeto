@@ -9,6 +9,6 @@ namespace Avanade.SubTCSE.Projeto.Application.Interfaces.Employee
 {
     public interface IEmployeeAppService
     {
-        Task<EmployeeDto> AddEmployee(EmployeeDto employee)
+        Task<EmployeeDto> AddEmployee(EmployeeDto employee);
     }
 }

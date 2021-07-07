@@ -10,9 +10,26 @@ namespace Avanade.SubTCSE.Projeto.Data.Repositories.Base.MongoDb
 {
     public class MongoDbContext : IMongoDbContext
     {
+        private readonly IMongoDatabase Database;
+
+        public MongoDbContext()
+        {
+            MongoClientSettings mongoClientSettings = MongoClientSettings
+                .FromUrl(new MongoUrl(""));
+
+            mongoClientSettings.SslSettings = new SslSettings()
+            {
+                EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12
+            };
+
+            MongoClient mongoClient = new MongoClient(mongoClientSettings);
+
+            Database = mongoClient.GetDatabase("");
+        }
+
         public IMongoCollection<TEntity> GetCollection<TEntity>(string collection)
         {
-            throw new NotImplementedException();
+            return Database.GetCollection<TEntity>(collection);
         }
     }
 }

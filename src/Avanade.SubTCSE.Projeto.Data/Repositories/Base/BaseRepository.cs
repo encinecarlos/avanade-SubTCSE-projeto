@@ -1,6 +1,7 @@
 ﻿using Avanade.SubTCSE.Projeto.Domain.Agregates;
 using Avanade.SubTCSE.Projeto.Domain.Base.Repository;
 using MongoDB.Driver;
+using System;
 using System.Threading.Tasks;
 
 namespace Avanade.SubTCSE.Projeto.Data.Repositories.Base
@@ -18,9 +19,7 @@ namespace Avanade.SubTCSE.Projeto.Data.Repositories.Base
 
         public async Task<TEntity> FindById(TId id)
         {
-            var result = await mongoCollection.Find(id);
-
-            return result;
+            throw new NotImplementedException();
         }
     }
 }

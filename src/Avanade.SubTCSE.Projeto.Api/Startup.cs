@@ -1,3 +1,4 @@
+using Avanade.SubTCSE.Projeto.CrossCutting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,10 +29,20 @@ namespace Avanade.SubTCSE.Projeto.Api
         {
 
             services.AddControllers();
+
+            services.AddApiVersioning(options => {
+                options.ReportApiVersions = true;
+            }).AddVersionedApiExplorer(options => {
+                options.GroupNameFormat = "'v'VVV";
+                options.SubstituteApiVersionInUrl = true;
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Avanade.SubTCSE.Projeto.Api", Version = "v1" });
             });
+
+            services.AddRegisterDependenciesInjections();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

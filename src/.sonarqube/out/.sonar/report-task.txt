@@ -1,0 +1,6 @@
+projectKey=SubTC-Api
+serverUrl=http://localhost:9000
+serverVersion=9.0.1.46107
+dashboardUrl=http://localhost:9000/dashboard?id=SubTC-Api
+ceTaskId=AXteO570itJfGTG94E-N
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXteO570itJfGTG94E-N

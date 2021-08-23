@@ -1,0 +1,16 @@
+`
+WC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\BaseEntity.csutf-8x
+oC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\EmployeeRole\Entities\EmployeeRole.csutf-8ì
+âC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\EmployeeRole\Interfaces\Repositories\IEmployeeRoleRepository.csutf-8å
+ÇC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\EmployeeRole\Interfaces\Services\IEmployeeRoleService.csutf-8
+vC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\EmployeeRole\Services\EmployeeRoleService.csutf-8É
+zC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\EmployeeRole\Validators\EmployeeRoleValidator.csutf-8p
+gC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\Employee\Entities\Employee.csutf-8ã
+ÅC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\Employee\Interfaces\Repositories\IEmployeeRepository.csutf-8É
+zC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\Employee\Interfaces\Services\IEmployeeService.csutf-8w
+nC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\Employee\Services\EmployeeService.csutf-8{
+rC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Agregates\Employee\Validators\EmployeeValidator.csutf-8k
+bC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Base\Repository\IBaseRepository.csutf-8s
+jC:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\Base\Repository\MongoDb\IMongoDbContext.csutf-8ä
+C:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8ä
+C:\labs\TC-fullstack\backend\src\Avanade.SubTCSE.Projeto.Domain\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Domain.AssemblyInfo.csutf-8

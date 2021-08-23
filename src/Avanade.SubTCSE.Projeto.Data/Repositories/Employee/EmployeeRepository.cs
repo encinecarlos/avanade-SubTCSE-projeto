@@ -10,7 +10,7 @@ namespace Avanade.SubTCSE.Projeto.Data.Repositories.Employee
             throw new System.NotImplementedException();
         }
 
-        public Task<Domain.Agregates.Employee.Entities.Employee> FindById(Domain.Agregates.Employee.Entities.Employee id)
+        public Task<Domain.Agregates.Employee.Entities.Employee> FindById(string id)
         {
             throw new System.NotImplementedException();
         }
